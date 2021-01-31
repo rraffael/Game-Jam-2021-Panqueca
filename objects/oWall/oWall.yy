@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sMap",
-    "path": "sprites/sMap/sMap.yy",
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oMap",
+  "name": "oWall",
   "tags": [],
   "resourceType": "GMObject",
 }
