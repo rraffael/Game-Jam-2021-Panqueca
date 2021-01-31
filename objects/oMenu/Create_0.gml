@@ -13,9 +13,10 @@ menu_itemheight = font_get_size(fMenu);
 menu_committed = -1;
 menu_control = true;
 
-menu[2] = "Novo Jogo";
-menu[1] = "Continuar";
+menu[1] = "Novo Jogo";
 menu[0] = "Sair";
 
 menu_items = array_length_1d(menu);
 menu_cursor = 2;
+
+audio_play_sound( snMenu, 10, true);

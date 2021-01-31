@@ -31,7 +31,10 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 2: default: SlideTransition(TRANS_MODE.NEXT); break;
+		case 1: 
+			default: audio_stop_sound(snMenu);
+				SlideTransition(TRANS_MODE.NEXT);
+				break;
 		case 0: game_end(); break;
 	}
 }

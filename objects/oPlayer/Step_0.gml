@@ -13,7 +13,7 @@ mov_vertical = mov_vertical + gravidade;
 
 if ( place_meeting( x, y + 1, oWall)) && (tecla_pulo)
 {
-	mov_vertical = -7;
+	mov_vertical = random_range(-3, -10);
 }
 	
 //Colisão horizontal

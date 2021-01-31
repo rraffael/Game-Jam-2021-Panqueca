@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
-    {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":2,},
+    {"id":{"name":"snMenu","path":"sounds/snMenu/snMenu.yy",},"order":0,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
@@ -9,6 +9,8 @@
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":0,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":4,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":3,},
+    {"id":{"name":"sBgMenu","path":"sprites/sBgMenu/sBgMenu.yy",},"order":5,},
+    {"id":{"name":"sBgCena1","path":"sprites/sBgCena1/sBgCena1.yy",},"order":6,},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":2,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
@@ -31,9 +33,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
-    {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
+    {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":2,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
